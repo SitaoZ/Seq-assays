@@ -32,33 +32,6 @@ GRO-Seq (Global nuclear Run-On sequencing)是一种专门测量新生RNA的方�
 Leighton J. Core, Joshua J. Waterfall, and John T. Lis, “Nascent RNA Sequencing Reveals Widespread Pausing and Divergent Initiation at Human Promoters,” Science 322, no. 5909 (December 19, 2008): 1845–1848, doi:10.1126/science.1162228
 https://www.illumina.com/science/sequencing-method-explorer/kits-and-arrays/gro-seq-bric-seq-bru-seq-bruchase-seq.html
 https://zhuanlan.zhihu.com/p/52114556
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-https://www.illumina.com/science/sequencing-method-explorer/kits-and-arrays/gro-seq-bric-seq-bru-seq-bruchase-seq.html
-https://zhuanlan.zhihu.com/p/52114556
 https://liorpachter.wordpress.com/seq/
         
         
