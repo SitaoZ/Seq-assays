@@ -5,8 +5,8 @@ PARS-Seq (parallel analysis of RNA structure sequencing) 能测定RNA的二级�
 
 # Pros
 1. 提供RNA的结构信息。
-2.区分成对和不成对的碱基。
-3.可替代质谱，核磁共振和晶体学。
+2. 区分成对和不成对的碱基。
+3. 可替代质谱，核磁共振和晶体学。
 
 # Cons
 1. 酶解可能是非特异性的
