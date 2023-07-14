@@ -25,10 +25,10 @@ DMS-Seq (dimethyl sulphate sequencing)，硫酸二甲酯测序法，该方法可
 2. 环化会导入而外的偏差。
 
 # 参考文献
-https://www.illumina.com/science/sequencing-method-explorer/kits-and-arrays/structure-seq-dms-seq.html
+https://www.illumina.com/science/sequencing-method-explorer/kits-and-arrays/structure-seq-dms-seq.html 
+
 Silvi Rouskin et al., “Genome-wide Probing of RNA Structure Reveals Active Unfolding of mRNA Structures in Vivo,” Nature advance online publication (December 15, 2013), doi:10.1038/nature12894
-        
-        
+
 Yiliang Ding et al., “In Vivo Genome-wide Profiling of RNA Secondary Structure Reveals Novel Regulatory Features,” Nature advance online publication (November 24, 2013), doi:10.1038/nature12756
         
         
