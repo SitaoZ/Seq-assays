@@ -16,4 +16,7 @@ PARS-Seq (parallel analysis of RNA structure sequencing) 能测定RNA的二级�
 
 # 参考文献
 https://www.illumina.com/science/sequencing-method-explorer/kits-and-arrays/pars-dsrna-seq.html
+
 Michael Kertesz et al., “Genome-wide Measurement of RNA Secondary Structure in Yeast,” Nature 467, no. 7311 (September 2, 2010): 103–107, doi:10.1038/nature09322
+        
+        
