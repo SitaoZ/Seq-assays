@@ -1,5 +1,6 @@
 # Cir-Seq
 环化测序能够检测RNA病毒中非常罕见的，频率极低的遗传变异。
+![image](https://github.com/SitaoZ/Seq-assays/assets/29169319/aecc9047-46cb-4d1b-99be-75349c063564)
 
 # 建库步骤
 
