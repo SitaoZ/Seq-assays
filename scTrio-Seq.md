@@ -6,8 +6,8 @@ single-cell triple omics sequencing(scTrio-Seq)，scTrio-Seq可以同时分析�
 # 建库步骤
 1. 单细胞悬浮液制备，分选单细胞
 2. 细胞质和细胞核的分离，实现了物理上DNA和RNA的分离
-3. 对于RNA使用scRNA-Seq的建库方式，(scRNA-Seq建库原理)[https://teichlab.github.io/scg_lib_structs/methods_html/tang2009.html]。
-4. 对于DNA使用scRRBS建库(建库原理)[https://teichlab.github.io/scg_lib_structs/methods_html/scRRBS.html]。
+3. 对于RNA使用scRNA-Seq的建库方式，[scRNA-Seq建库原理](https://teichlab.github.io/scg_lib_structs/methods_html/tang2009.html)。
+4. 对于DNA使用scRRBS建库[建库原理](https://teichlab.github.io/scg_lib_structs/methods_html/scRRBS.html)。
 # Pros
 1. 能准确分析转录组，基因组和DNA甲基化，以及他们相互之间的作用。
 2. 使用scRRBS的数据来准确获取CNVs
