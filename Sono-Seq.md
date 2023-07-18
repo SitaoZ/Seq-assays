@@ -16,4 +16,5 @@ Sono-Seq(sonication of cross-linked chromatin)技术和FAIRE-Seq (formaldehyde-a
 
 # 参考文献
 https://www.illumina.com/science/sequencing-method-explorer/kits-and-arrays/faire-seq-sono-seq.html
+
 Raymond K. Auerbach et al., “Mapping Accessible Chromatin Regions Using Sono-Seq,” Proceedings of the National Academy of Sciences 106, no. 35 (September 1, 2009): 14926–14931, doi:10.1073/pnas.0905443106
