@@ -1,5 +1,5 @@
 # Sono-Seq
-Sono-Seq技术和FAIRE-Seq技术是基于DNA和核小体(或者DNA绑定蛋白)交联的效率差异建立的方法。该方法能够在体内使用甲醛交联DNA-protein复合体。
+Sono-Seq(sonication of cross-linked chromatin)技术和FAIRE-Seq (formaldehyde-assisted isolation of regulatory elements)技术是基于DNA和核小体(或者DNA绑定蛋白)交联的效率差异建立的方法。该方法能够在体内使用甲醛交联DNA-protein复合体。
 然后样本溶解和超声处理，在使用酚氯仿进行提取DNA,纯化和测序。测序提供的信息是那些没有被组蛋白占据的DNA。
 ![image](https://github.com/SitaoZ/Seq-assays/assets/29169319/fa3d0a70-7655-4b45-b79e-6e9c2362638f)
 
