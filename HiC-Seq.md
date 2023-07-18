@@ -8,10 +8,9 @@ Hi-C也叫3C-Seq和Capture-C，是用来分析染色质相互作用的技术。C
 
 
 # Pros
-Allows detection of long-range DNA interactions
-High-throughput method
-允许检测合长距离的DNA的相互作用
-高通量
+1. 能检测到长距离的DNA的相互作用
+2. 高通量
+
 
 # Cons:
 1. 检测结果可能是随机的染色体碰撞。
@@ -21,3 +20,13 @@ High-throughput method
 # 参考文献
 https://www.illumina.com/science/sequencing-method-explorer/kits-and-arrays/hi-c-3c-seq-capture-c.html
 Erez Lieberman-Aiden et al., “Comprehensive Mapping of Long-Range Interactions Reveals Folding Principles of the Human Genome,” Science 326, no. 5950 (October 9, 2009): 289–293, doi:10.1126/science.1181369
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
