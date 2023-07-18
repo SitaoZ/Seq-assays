@@ -19,6 +19,7 @@ Hi-C也叫3C-Seq和Capture-C，是用来分析染色质相互作用的技术。C
 
 # 参考文献
 https://www.illumina.com/science/sequencing-method-explorer/kits-and-arrays/hi-c-3c-seq-capture-c.html
+
 Erez Lieberman-Aiden et al., “Comprehensive Mapping of Long-Range Interactions Reveals Folding Principles of the Human Genome,” Science 326, no. 5950 (October 9, 2009): 289–293, doi:10.1126/science.1181369
         
         
