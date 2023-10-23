@@ -6,13 +6,13 @@ TRIBE通过使用融合蛋白修饰RNA序列，在体内鉴定rbp的靶RNA序列
  
 首先，将目标RBP的融合蛋白克隆到动物模型中，并与荧光标记蛋白一起表达。激活融合蛋白的表达后，用寡聚(dT)珠从感兴趣的细胞中分离mRNA。mrna使用poly(dT)-T7引物和random-T7引物进行逆转录，以减少3'偏倚。将新生cDNA链输入到TruSeq RNA Library Prep Kit中，生成cDNA文库进行测序。
 
-优点: 
-rbp在特定细胞类型中RNA靶点的体内鉴定 
-不局限于抗体的特异性 
-能在少量特定细胞中进行
-缺点: 
-需要融合蛋白的组装 
-需要靠近RBP结合位点的腺苷 
-ADAR的催化结构域对双链RNA具有强烈的偏好
+# 优点: 
+- rbp在特定细胞类型中RNA靶点的体内鉴定
+- 不局限于抗体的特异性 
+- 能在少量特定细胞中进行
+# 缺点: 
+- 需要融合蛋白的组装 
+- 需要靠近RBP结合位点的腺苷 
+- ADAR的催化结构域对双链RNA具有强烈的偏好
 
 [TRIBE: Hijacking an RNA-Editing Enzyme to Identify Cell-Specific Targets of RNA-Binding Proteins](https://pubmed.ncbi.nlm.nih.gov/27040499/)
