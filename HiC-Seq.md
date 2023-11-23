@@ -44,7 +44,7 @@ Hi-C也叫3C-Seq和Capture-C，是用来分析染色质相互作用的技术。C
 - 在生信分析中，通过计算染色体内部互作的相关性来区分不同区室
 
 4. 拓扑结构(topologically associating domains, TAD)
-<img src="https://github.com/SitaoZ/Seq-assays/assets/29169319/4d30038e-0acb-4e79-9c3d-bdb6d310cf12" width="300" height="300">
+<img src="https://github.com/SitaoZ/Seq-assays/assets/29169319/4d30038e-0acb-4e79-9c3d-bdb6d310cf12" width="500" height="500">
 在染色质区室中，存在互作频繁的基因组区域，称为拓扑结构域，TAD。
 这些区域在不同物种和不同细胞中很保守，并且高度富集CTCF和粘连蛋白。
 通过计算基因互作矩阵，我们会得到类似上图的大三角形，可以看到上面有几个深红色的三角，代表内部高度互作区域。一般是400-800kb长度。
@@ -64,7 +64,7 @@ LAD是多细胞动物基因组中的异染色质结构域。在哺乳动物中�
 NAD占基因组的4%，几乎具有与LAD相同的所有物理特征，通过对LAD和NAD的序列分析发现，某些区域可能在核纤层和核仁之间切换  
 
 7. 染色质环(Chromatin loop)
-<img src="https://github.com/SitaoZ/Seq-assays/assets/29169319/9145f63a-bce2-427d-a73f-c669eb9f24f5" width="300" height="300">
+<img src="https://github.com/SitaoZ/Seq-assays/assets/29169319/9145f63a-bce2-427d-a73f-c669eb9f24f5" width="600" height="400">
 染色质子在空间中形成环状结构，因此相距很远的染色质区域可以在三维空间中聚在一起。
 据推测大约50%的人类基因通过染色质环化的过程参与长距离的染色质互作。这种结构可以使线性距离很远的元件得以相遇，以此来完成调控作用。如空间上启动子和增强子结合激活转录。
 
