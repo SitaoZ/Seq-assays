@@ -29,7 +29,7 @@ Hi-C也叫3C-Seq和Capture-C，是用来分析染色质相互作用的技术。C
 2. 染色质疆域(chromosome territory, CT)
 <img src="https://github.com/SitaoZ/Seq-assays/assets/29169319/693e9ab8-d73f-4674-8e8a-98ad781a9e3b" width="400" height="400">
 
-![nihms946695f2](https://github.com/SitaoZ/Seq-assays/assets/29169319/f96a90f9-75ba-4049-a709-ee500e77d223)
+<img src="https://github.com/SitaoZ/Seq-assays/assets/29169319/f96a90f9-75ba-4049-a709-ee500e77d223" width="400" height="200">
 
 染色质在细胞核内的分布不是随机的，各染色体占据不同的空间。
 - 相对位置不变，染色体相对位置不变持续到有丝分裂起始。体积大且基因数目少的染色体位于核外围，体积小且基因数目多的染色体靠近核中心
@@ -65,6 +65,7 @@ NAD占基因组的4%，几乎具有与LAD相同的所有物理特征，通过对
 
 7. 染色质环(Chromatin loop)
 <img src="https://github.com/SitaoZ/Seq-assays/assets/29169319/9145f63a-bce2-427d-a73f-c669eb9f24f5" width="600" height="400">
+
 染色质子在空间中形成环状结构，因此相距很远的染色质区域可以在三维空间中聚在一起。
 据推测大约50%的人类基因通过染色质环化的过程参与长距离的染色质互作。这种结构可以使线性距离很远的元件得以相遇，以此来完成调控作用。如空间上启动子和增强子结合激活转录。
 
