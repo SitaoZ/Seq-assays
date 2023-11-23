@@ -26,14 +26,15 @@ Hi-C也叫3C-Seq和Capture-C，是用来分析染色质相互作用的技术。C
 核纤层(nuclear lamina): 位于核膜的内表面的纤维网络，支持核膜，锚定染色质，与核骨架相连，参与细胞周期解离和重建  
 核仁(nucleolus): 主要存储合成 rRNA，存储装配核糖体  
 
-3. 染色质疆域(chromosome territory, CT)
+2. 染色质疆域(chromosome territory, CT)
 ![pgen 1005640 g001](https://github.com/SitaoZ/Seq-assays/assets/29169319/693e9ab8-d73f-4674-8e8a-98ad781a9e3b)
 
 ![nihms946695f2](https://github.com/SitaoZ/Seq-assays/assets/29169319/f96a90f9-75ba-4049-a709-ee500e77d223)
 
 染色质在细胞核内的分布不是随机的，各染色体占据不同的空间。
 - 相对位置不变，染色体相对位置不变持续到有丝分裂起始。体积大且基因数目少的染色体位于核外围，体积小且基因数目多的染色体靠近核中心
-- 染色质的位置因细胞类型的不同而产生相应的变化。如X染色体在肝脏细胞中更频繁地定位中外围   
+- 染色质的位置因细胞类型的不同而产生相应的变化。如X染色体在肝脏细胞中更频繁地定位中外围
+
 3. 染色质区室(A/B compartments)
 基因组被分成A/B两个区室，区室内部互作多，区室间互作少。
 - A compartments
@@ -41,6 +42,7 @@ Hi-C也叫3C-Seq和Capture-C，是用来分析染色质相互作用的技术。C
 - B compartments
   关闭的染色质，表达不活跃，基因缺乏，结构紧凑，含有基因沉默的组蛋白标志物，位于核外围。主要由LAD组成，包含晚期复制起点。
 - 在生信分析中，通过计算染色体内部互作的相关性来区分不同区室
+
 4. 拓扑结构(topologically associating domains, TAD)
 ![qwt25gbypa](https://github.com/SitaoZ/Seq-assays/assets/29169319/4d30038e-0acb-4e79-9c3d-bdb6d310cf12)
 
@@ -48,6 +50,7 @@ Hi-C也叫3C-Seq和Capture-C，是用来分析染色质相互作用的技术。C
 这些区域在不同物种和不同细胞中很保守，并且高度富集CTCF和粘连蛋白。
 通过计算基因互作矩阵，我们会得到类似上图的大三角形，可以看到上面有几个深红色的三角，代表内部高度互作区域。一般是400-800kb长度。
 TAD可以进一步细分为subTAD,大小约100kb, subTAD之间的边界在不同细胞的组织间具有差异性，与细胞特异的增强子-启动子互作有关。
+
 5. 层关联域(Lamina accociating domains, LAD)
 ![btmgmn81ga](https://github.com/SitaoZ/Seq-assays/assets/29169319/1d9ff268-fb68-42c4-9a46-1e980842d146)
 
@@ -55,10 +58,12 @@ LAD是多细胞动物基因组中的异染色质结构域。在哺乳动物中�
 组蛋白修饰，主流观点认为LAD是一种染色质抑制状态。
 - 结构性LAD(constitutive LAD, cLAD): 富含AT区域的异染色质区域，靠近核纤层，对染色体之间的结构形成至关重要
 - 偶发性LAD(facultative LAD, fLAD): 具有不同的核纤层的相互作用，在不同细胞中抑制或者激活不同的基因，从而导致细胞类型
+
 6. 核仁关联域(Nucleolar associating domains, NAD)
 ![ney9avuy8p](https://github.com/SitaoZ/Seq-assays/assets/29169319/9393790f-87d2-498e-ade2-14b8db9edff2)
 
-NAD占基因组的4%，几乎具有与LAD相同的所有物理特征，通过对LAD和NAD的序列分析发现，某些区域可能在核纤层和核仁之间切换
+NAD占基因组的4%，几乎具有与LAD相同的所有物理特征，通过对LAD和NAD的序列分析发现，某些区域可能在核纤层和核仁之间切换  
+
 7. 染色质环(Chromatin loop)
 ![iffdnzhhcg](https://github.com/SitaoZ/Seq-assays/assets/29169319/9145f63a-bce2-427d-a73f-c669eb9f24f5)
 
