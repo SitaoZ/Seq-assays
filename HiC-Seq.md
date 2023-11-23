@@ -110,12 +110,11 @@ sh run-asm-pipeline-post-review.sh
 
 # Reference
 
-Three-dimensional chromatin packing and positioning of plant genomes [1](https://www.nature.com/articles/s41477-018-0199-5)
-Regulation of disease-associated gene expression in the 3D genome [2](https://www.nature.com/articles/nrm.2016.138)
-Minor Loops in Major Folds: Enhancer–Promoter Looping, Chromatin Restructuring, and Their Association with Transcriptional Regulation and Disease [3](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005640)
-https://www.illumina.com/science/sequencing-method-explorer/kits-and-arrays/hi-c-3c-seq-capture-c.html
-
-Erez Lieberman-Aiden et al., “Comprehensive Mapping of Long-Range Interactions Reveals Folding Principles of the Human Genome,” Science 326, no. 5950 (October 9, 2009): 289–293, doi:10.1126/science.1181369
+Doğan, E.S., Liu, C. Three-dimensional chromatin packing and positioning of plant genomes. Nature Plants 4, 521–529 (2018). https://doi.org/10.1038/s41477-018-0199-5    
+Krijger, P., de Laat, W. Regulation of disease-associated gene expression in the 3D genome. Nat Rev Mol Cell Biol 17, 771–782 (2016). https://doi.org/10.1038/nrm.2016.138   
+Matharu, N., & Ahituv, N. (2015). Minor Loops in Major Folds: Enhancer-Promoter Looping, Chromatin Restructuring, and Their Association with Transcriptional Regulation and Disease. PLoS genetics, 11(12), e1005640. https://doi.org/10.1371/journal.pgen.1005640   
+Erez Lieberman-Aiden et al., “Comprehensive Mapping of Long-Range Interactions Reveals Folding Principles of the Human Genome,” Science 326, no. 5950 (October 9, 2009): 289–293, doi:10.1126/science.1181369   
+https://www.illumina.com/science/sequencing-method-explorer/kits-and-arrays/hi-c-3c-seq-capture-c.html  
         
         
         
