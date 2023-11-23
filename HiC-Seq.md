@@ -29,13 +29,13 @@ Hi-C也叫3C-Seq和Capture-C，是用来分析染色质相互作用的技术。C
 2. 染色质疆域(chromosome territory, CT)
 <img src="https://github.com/SitaoZ/Seq-assays/assets/29169319/693e9ab8-d73f-4674-8e8a-98ad781a9e3b" width="400" height="400">
 
-<img src="https://github.com/SitaoZ/Seq-assays/assets/29169319/f96a90f9-75ba-4049-a709-ee500e77d223" width="400" height="200">
-
 染色质在细胞核内的分布不是随机的，各染色体占据不同的空间。
 - 相对位置不变，染色体相对位置不变持续到有丝分裂起始。体积大且基因数目少的染色体位于核外围，体积小且基因数目多的染色体靠近核中心
 - 染色质的位置因细胞类型的不同而产生相应的变化。如X染色体在肝脏细胞中更频繁地定位中外围
 
 3. 染色质区室(A/B compartments)
+<img src="https://github.com/SitaoZ/Seq-assays/assets/29169319/f96a90f9-75ba-4049-a709-ee500e77d223" width="400" height="200">
+
 基因组被分成A/B两个区室，区室内部互作多，区室间互作少。
 - A compartments
   开放的染色质，表达活跃，基因丰富，具有较高的GC含量，包含用于主动转录的组蛋白标记，通常位于细胞核的内部。
@@ -45,6 +45,7 @@ Hi-C也叫3C-Seq和Capture-C，是用来分析染色质相互作用的技术。C
 
 4. 拓扑结构(topologically associating domains, TAD)
 <img src="https://github.com/SitaoZ/Seq-assays/assets/29169319/4d30038e-0acb-4e79-9c3d-bdb6d310cf12" width="500" height="500">
+
 在染色质区室中，存在互作频繁的基因组区域，称为拓扑结构域，TAD。
 这些区域在不同物种和不同细胞中很保守，并且高度富集CTCF和粘连蛋白。
 通过计算基因互作矩阵，我们会得到类似上图的大三角形，可以看到上面有几个深红色的三角，代表内部高度互作区域。一般是400-800kb长度。
@@ -69,7 +70,6 @@ NAD占基因组的4%，几乎具有与LAD相同的所有物理特征，通过对
 染色质子在空间中形成环状结构，因此相距很远的染色质区域可以在三维空间中聚在一起。
 据推测大约50%的人类基因通过染色质环化的过程参与长距离的染色质互作。这种结构可以使线性距离很远的元件得以相遇，以此来完成调控作用。如空间上启动子和增强子结合激活转录。
 
-
 # software
 1. HiCExploer
 基于Python的分析软件，接触矩阵获取，QC，标准化，TAD calling, Loop calling, 差异分析，可视化，格式转换等。
@@ -80,8 +80,33 @@ NAD占基因组的4%，几乎具有与LAD相同的所有物理特征，通过对
 4. PASTIS
 染色体3D结构推断软件。
 
-  
-  
+# HiC辅助组装
+HiC数据的互作在染色体内互作富集，互作随着距离衰减，因此在基因组组装中可以利用HiC数据的特征将contigs/scaffords挂载到pseudomolecules水平。
+## 辅助组装软件
+- 3D-DNA + Juicebox
+```bash
+# step 1 软件安装
+git clone https://github.com/aidenlab/juicer.git
+git clone https://github.com/aidenlab/3d-dna.git
+
+# step 2
+#对需要挂载的基因组建索引
+bwa index xxx.fa
+#根据基因组构建创建酶切位点文件
+python generate_site_positions.py DpnII genome xxx.fa
+#获取每条contig长度
+awk 'BEGIN{OFS="\t"}{print $1, $NF}' genome_DpnII.txt > genome.chrom.sizes
+#运行Juicer
+sh /juicer.sh
+
+# step 3
+# Juicebox纠错
+
+# step 4
+sh run-asm-pipeline-post-review.sh 
+```
+- ALLHiC
+[allhic-tutorial](https://github.com/tangerzhang/ALLHiC/wiki)
 
 # Reference
 
