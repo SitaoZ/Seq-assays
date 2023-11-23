@@ -18,8 +18,7 @@ Hi-C也叫3C-Seq和Capture-C，是用来分析染色质相互作用的技术。C
 
 
 # Terminology
-![屏幕快照 2023-11-23 上午9 20 52](https://github.com/SitaoZ/Seq-assays/assets/29169319/aa6efb1b-e776-4db8-ac76-dc6dd0c9b535)
-<img src="https://github.com/SitaoZ/Seq-assays/assets/29169319/aa6efb1b-e776-4db8-ac76-dc6dd0c9b535" width="100" height="100">
+<img src="https://github.com/SitaoZ/Seq-assays/assets/29169319/aa6efb1b-e776-4db8-ac76-dc6dd0c9b535" width="600" height="600">
 
 1. 细胞核(nucleus)
 真核生物中最大的细胞器，是细胞遗传和代谢控制中心。
