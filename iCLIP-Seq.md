@@ -26,6 +26,7 @@ Amplification allows the detection of rare events
 5. 环化链接效率不够高
 
 # 参考文献
+iCLIP-Seq: Julian König et al., “iCLIP Reveals the Function of hnRNP Particles in Splicing at Individual Nucleotide Resolution,” Nature Structural & Molecular Biology 17, no. 7 (July 2010): 909–915, doi:10.1038/nsmb.1838.  
 https://www.illumina.com/science/sequencing-method-explorer.html
 
 
