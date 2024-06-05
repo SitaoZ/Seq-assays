@@ -6,10 +6,10 @@
 RNA Immunoprecipitation Sequencing (RIP-seq)以RNA免疫共沉淀（RIP）为基础，采用特异抗体对RNA结合蛋白或者特殊修饰的RNA进行免疫共沉淀后，分离RNA，通过Illumina测序，在全转录组范围内研究被特定蛋白特异结合的RNA区域或种类。
 
 ## 建库步骤
-1.紫外交联，细胞裂解
-2.提取染色质，随机打断
-3.磁珠、抗体免疫共沉淀
-4.RNA分离与纯化
+1.紫外交联，细胞裂解  
+2.提取染色质，随机打断  
+3.磁珠、抗体免疫共沉淀  
+4.RNA分离与纯化  
 5.文库构建，根据分析的RNA的类型的不同(mRNA,lncRNA, circRNA, small RNA)，可以分成多种文库
 
 
