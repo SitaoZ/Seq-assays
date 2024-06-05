@@ -1,5 +1,6 @@
 # iCLIP-Seq
 
+![屏幕快照 2024-06-05 上午9 42 24](https://github.com/SitaoZ/Seq-assays/assets/29169319/003bd41b-25fe-4d33-8fe0-dcfd64b6d854)
 
 
 
